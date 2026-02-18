@@ -9,5 +9,8 @@ package com.mycompany.q2;
  * @author faraz
  */
 public class ProductManager {
-    
+    //Calculate final price
+    public double calculateDiscount(double price, double discountPercent) {
+    return price - (price * discountPercent / 100);
+}
 }
